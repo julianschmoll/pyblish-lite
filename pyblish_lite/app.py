@@ -85,7 +85,7 @@ def show(parent=None):
         font = self._window.font()
         font.setFamily("Open Sans")
         font.setPointSize(8)
-        font.setWeight(400)
+        font.setWeight(QtGui.QFont.Normal)
 
         self._window.setFont(font)
         self._window.setStyleSheet(css)
